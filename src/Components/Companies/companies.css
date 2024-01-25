@@ -1,0 +1,71 @@
+.total-employees .employee-request .add-company .continue {
+    width: fit-content;
+    height: fit-content;
+
+    border-radius: 8px;
+    padding: 12px 24px;
+    background-color: #40C853;
+    border: 1px solid #40C853;
+}
+
+.total-employees .employee-request .add-company .cancel {
+    width: fit-content;
+    height: fit-content;
+
+    border-radius: 8px;
+    padding: 12px 24px;
+    background-color: rgb(252, 50, 50);
+    border: 1px solid rgb(252, 50, 50);;
+    color: white;
+    font-size: 18px;
+}
+
+.total-employees .employee-request .add-company {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-footer {
+   align-self: end;
+   margin: 1rem;
+}
+
+.modal-footer, .continue {
+    width: fit-content;
+    height: fit-content;
+
+    border-radius: 8px;
+    padding: 4px 8px;
+    background-color: #40C853;
+    border: 1px solid #40C853;
+
+    color: white;
+    font-size: medium;
+}
+
+.total-employees .employee-request .add-company .continue i{
+    color: white;
+    font-size: 28px;
+}
+
+.total-employees .employee-request .table .table-body .table-row td.address {
+    color: black;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+/* .total-employees .employee-request .table .table-body .table-row td:nth-child(2) {
+    display: flex;
+} */
+
+.total-employees .employee-request .table .table-body {
+    max-height: 500px !important;
+    overflow: auto;
+}

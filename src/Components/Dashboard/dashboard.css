@@ -1,0 +1,229 @@
+.total-employees {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 40px 100px;
+    background-color: #e1e1e1;
+}
+
+.total-employees > h1 {
+    width: 100%;
+    text-align: center;
+    color: rgb(34, 34, 34);
+    font-family: 'Manrope';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 28px;
+    word-wrap: break-word;
+    
+    text-wrap: nowrap;
+}
+
+.total-employees .employees-in-number {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.total-employees .employees-in-number .total-in-number {
+    width: fit-content;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 32px 60px;
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid rgb(176, 176, 176);
+}
+
+.total-employees .employees-in-number .total-in-number .employees-icon {
+    width: 100%;
+    height: 100%;
+
+    background-color: #EAF4F9;;
+    padding: 16px;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-employees .employees-in-number .total-in-number .employees-icon i{
+    font-size: 48px;
+    color: #40C853;
+}
+
+.total-employees .employees-in-number .total-in-number .employees-text{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.total-employees .employees-in-number .total-in-number .employees-text p:first-of-type{
+    color: rgb(190, 188, 188);
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+
+    text-wrap: nowrap;
+}
+
+.total-employees .employees-in-number .total-in-number .employees-text p:last-of-type{
+    color: rgb(34, 34, 34);
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    word-wrap: break-word;
+    
+    text-wrap: nowrap;
+}
+
+.total-employees .employee-request {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 32px 40px;
+    background-color: white;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.total-employees .employee-request .search {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+}
+
+.total-employees .employee-request .search input {
+    width: 50%;
+    text-indent: 1.5rem;
+}
+
+.total-employees .employee-request .search i {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.5rem;
+
+    cursor: pointer;
+}
+
+.total-employees .employee-request .table .table-body .table-row td:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.total-employees .employee-request .table .table-body .table-row td:nth-of-type(2) .row-image {
+    min-width: 50px;
+    max-width: 50px;
+    height: 50px;
+
+    background-color: transparent;
+    border-radius: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.total-employees .employee-request .table .table-body .table-row td:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.total-employees .employee-request .table .table-body .table-row td:nth-of-type(2) .row-image {
+    min-width: 50px;
+    max-width: 50px;
+    height: 50px;
+
+    background-color: transparent;
+    border-radius: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.total-employees .employee-request .table .table-body .table-row td:nth-of-type(2) .row-image img {
+    width: 50px;
+    height: 50px;
+}
+
+.total-employees .employee-request .table .table-body .table-row td:nth-of-type(2) p{
+    transform: translateY(8px);
+}
+
+.total-employees .employee-request .table .table-body .table-row .form-check-input,
+.total-employees .employee-request .table .table-head .table-row .form-check-input {
+    font-size: 20px;
+}
+
+.total-employees .employee-request .table .table-body .table-row td.new {
+    color: #40C853;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.total-employees .employee-request .outer-table {
+    width: 100%;
+    max-height: 500px;
+    position: relative;
+    overflow: auto;
+}
+
+.total-employees .employee-request .outer-table::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+.total-employees .employee-request .outer-table::-webkit-scrollbar-track {
+    background-color: #F5F6FA;
+}
+
+.total-employees .employee-request .outer-table::-webkit-scrollbar-thumb {
+    background-color: #40C853;
+}
+
+.total-employees .employee-request .outer-table::-webkit-scrollbar-thumb:hover {
+    background-color: #40C853;
+}
+
+.total-employees .employee-request .outer-table .table .table-head {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    width: 100%;
+    background-color: white;
+}

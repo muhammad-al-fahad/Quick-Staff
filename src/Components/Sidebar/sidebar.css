@@ -1,0 +1,125 @@
+.sidebar {
+    position: fixed;
+    width: 15%;
+    min-height: 100vh;
+    max-height: 100vh;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+
+    padding: 16px 20px;
+    background-color: white;
+    z-index: 99;
+}
+
+.sidebar .sidebar-item {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar .sidebar-item:hover > i,
+.sidebar .sidebar-item:hover .item-page > i,
+.sidebar .sidebar-item:hover .item-page > p {
+    color: #40C853;
+}
+
+.sidebar .sidebar-item .item-page {
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.sidebar .sidebar-item > i,     
+.sidebar .sidebar-item .item-page > i {
+    color: #838383;
+}
+
+.sidebar .sidebar-item .item-page > p {
+    transform: translateY(8px);
+    color: #838383;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.sidebar .sidebar-item:first-child {
+    flex: none;
+}
+
+.sidebar .sidebar-main {
+    flex: 1;
+    width: 100%;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.sidebar .sidebar-item:last-child {
+    flex: none;
+}
+
+.sidebar .sidebar-logo {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.sidebar .sidebar-logo p{
+    transform: translateY(8px);
+    color: black;
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.sidebar .sidebar-user {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.sidebar .sidebar-user p {
+    transform: translateY(12px);
+    color: black;
+    font-family: 'Manrope';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.product-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #838383;
+}
+
+.product-icon:hover {
+    width: 20px;
+    height: 20px;
+    background-color: #40C853;
+}

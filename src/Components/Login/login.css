@@ -1,0 +1,214 @@
+.login {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.login .btn-group {
+    gap: 16px;
+}
+
+.login .login-icon {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.login .login-icon > img{
+    width: 54px;
+    height: 54px;
+}
+
+.login .login-icon > p{
+    color: #4B4B4B;
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+    letter-spacing: 0.075rem;
+}
+
+.login .welcome-back {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.login .welcome-back .login-form {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.login .welcome-back .login-form > h1{
+    width: 100%;
+    color: #4B4B4B;
+    font-size: 28px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.login .welcome-back .login-form > form > div > label {
+    color: #1E1E1E;
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.login .welcome-back .login-form > form > div > input {
+    height: 50px;
+}
+
+.login .welcome-back .login-form > form {
+    width: 100%;
+}
+
+.login .welcome-back .login-form > form .login-forget {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    color: #4B4B4B;
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    line-height: 19px;
+    word-wrap: break-word;
+}
+
+.login .login-account {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login-account > p {
+    color: #4B4B4B;
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    line-height: 19.68px;
+    word-wrap: break-word;
+}
+
+.login .login-account > p > a{
+    color: #4195C7;
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    line-height: 19.68px;
+    word-wrap: break-word;
+    margin-left: 6px;
+}
+
+.login .login-app-icon {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login-app-icon > img{
+    width: 169px;
+    height: 63px;
+}
+
+.login .login-button {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login-button .button-auth {
+    width: 50%;
+    height: 50px;
+    
+    color: white;
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+
+    background-color: #40C853;
+    padding: 10px 16px;
+    border-radius: 89px;
+    border: none;
+}
+
+.spinner-border {
+    width: 125px;
+    height: 125px;
+    font-size: 48px;
+    color: #40C853;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 768px){
+    .login .login-button .button-auth {
+        width: 75%;
+    }
+
+    .login .welcome-back {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .login .login-button .button-auth {
+        width: 95%;
+    }
+
+    .login .welcome-back {
+        width: 95%;
+    }
+}

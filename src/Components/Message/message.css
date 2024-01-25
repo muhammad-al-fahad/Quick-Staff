@@ -1,0 +1,18 @@
+.message {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 25%;
+    height: fit-content;
+    z-index: 9999;
+}
+
+.message .alert {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}

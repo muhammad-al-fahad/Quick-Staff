@@ -1,0 +1,44 @@
+.file_img {
+    position: relative;
+}
+
+.file_img span {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    z-index: 4;
+    background-color: white;
+    color: red;
+    padding: 1.5px 5px;
+    border-radius: 50%;
+    border: 1px solid red;
+    font-size: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.file-input::placeholder {
+    display: none;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    align-items: center;
+    background-color: rgb(127, 255, 127);
+    border-radius: 50px;
+}
+
+.skill p {
+    transform: translateY(8px);
+}
+
+.skill img {
+    width: 20px;
+    height: 20px;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+  }
